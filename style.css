@@ -1,0 +1,116 @@
+:root{
+    --main-color: #F7E6DB;
+    --second-color: #ED985B;
+    --font: font-family: "Montserrat", sans-serif;
+    --font-second: font-family: "Gabelisa", sans-serif;
+}
+@font-face {
+    font-family: "Gabelisa";
+    src: url(./fonts/Gabelisa\ Font\ by\ Keithzo\ \(7NTypes\).otf);
+    }
+body{
+    background-color: var(--main-color);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 170px;
+}
+.navitem{
+    padding-top: 20px;
+}
+.navitem a{
+    padding: 0px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.topcover{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.topcoverleft{
+    width: 50%;
+    height: 90%;
+}
+.topcoverleft img{
+    width: 100%;
+    height: 100%;
+}
+.topcoverright{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+.topcoverright h3{
+    font-family: var(--font);
+    font-weight: 100;
+}
+.justfortopcover{
+    font: var(--font);
+    font-weight: 900;
+    font-size: 100px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: -16px;
+    line-height: 80px;
+}
+.justfortopcoverhtwoyou{
+    font-family: "Caveat", cursive;
+    font-style: italic;
+    color: var(--second-color);
+}
+.onlineorder{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+.onlineorderleft{
+    width: 70%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.onlineorderlefth1{
+    text-align: start;
+}
+.onlineorderlefth1order{
+    text-align: end !important;
+}
+.onlineorderight{
+    width: 30%;
+    text-align: center;
+    background-color: var(--second-color);
+    color: white;
+}
+.copyrightend{
+    display: flex;
+    margin: 0px auto;
+}
+.copyrightleft{
+    width: 70%;
+}
+.copyrightleft p{
+    font-family: var(--font);
+    font-weight: normal;
+    font-size: 15px;
+}
+.copyrightright{
+    width: 30%;
+}
+.copyrightright i{
+    border-radius: 50px;
+    background-color: var(--second-color);
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
